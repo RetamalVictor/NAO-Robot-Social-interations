@@ -1,6 +1,11 @@
-# TA-group-13
+# NAO for social robotics
 
-Welcome. This is the repo for TA group 13
+Welcome
+
+## Requirements 
+Choregraph software -- [Installation manual](https://socialrobotics.atlassian.net/wiki/spaces/SIR2021/pages/2116911105/Choreographe).
+
+Dialogoflow
 
 In this repo, a variety of files can be found, most of which will be discussed in this Readme. Please note that most of the programs in this repo are not executable as stand-alone programs. Often they are to be used in combination with Docker and a handful of Java programs that are not included.  It does, however, resemble the progress we have made.
 
@@ -21,3 +26,12 @@ The config files are in ```JSON``` format. For every system of the robot, there 
 ## Movements
 
 Several movements are implemented. For the movements to work, they need to be installed using Choregraph in the Nao robot.
+
+Authors:
+```bash
+Victor Retamal
+Chantal Voges
+Quinn Scott
+Mohammed Majeed
+Fauve Wevers
+Demi Peek
