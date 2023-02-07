@@ -17,7 +17,7 @@ In this repo, a variety of files can be found, most of which will be discussed i
 
 ```main.py``` contains the class ```MainFrame``` and it will act as our expermiment flow. It handles high-level control.
 
-```bot-cxfn-0dafed23521e.json``` is the file used for the Google Dialogflow API.
+```bot-private-dialg.json``` is the file used for the Google Dialogflow API.
 
 ```Resources``` is used for Google Dialogflow.
 
