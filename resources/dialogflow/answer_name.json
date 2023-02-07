@@ -1,0 +1,148 @@
+{
+  "id": "84bd0024-afd0-4ce8-8ff4-7f4b727572fb",
+  "name": "answer_name",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "answer_name"
+  ],
+  "contexts": [
+    "answer_name"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "answer_name",
+      "affectedContexts": [
+        {
+          "name": "answer_name",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "name",
+          "dataType": "@sys.given-name",
+          "isList": false,
+          "required": true,
+          "prompts": [],
+          "value": "$name",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "You can call me ",
+          "userDefined": false
+        },
+        {
+          "text": "Stewart",
+          "userDefined": true,
+          "alias": "name",
+          "meta": "@sys.given-name"
+        }
+      ],
+      "count": 0,
+      "id": "aa1f8239-29be-4e70-9e05-ebb25322a8f4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm ",
+          "userDefined": false
+        },
+        {
+          "text": "Bob",
+          "userDefined": true,
+          "alias": "name",
+          "meta": "@sys.given-name"
+        }
+      ],
+      "count": 0,
+      "id": "30a820ff-33a4-47c1-b099-1fb2ba5c532d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am ",
+          "userDefined": false
+        },
+        {
+          "text": "Anne",
+          "userDefined": true,
+          "alias": "name",
+          "meta": "@sys.given-name"
+        }
+      ],
+      "count": 0,
+      "id": "6afac8c1-8748-44a0-bd20-64b0d380f454",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Mike",
+          "userDefined": true,
+          "alias": "name",
+          "meta": "@sys.given-name"
+        }
+      ],
+      "count": 0,
+      "id": "3934ed2c-2908-4e84-857c-7059d85cfdde",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "My name is ",
+          "userDefined": false
+        },
+        {
+          "text": "Richard",
+          "userDefined": false,
+          "alias": "name",
+          "meta": "@sys.given-name"
+        }
+      ],
+      "count": 0,
+      "id": "17ea169b-3da4-4335-b9ea-f771b09652cf",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

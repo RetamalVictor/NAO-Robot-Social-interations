@@ -1,0 +1,26 @@
+{
+    "Base_config":{
+        "server_ip":"127.0.0.1",
+        "joints":["LArm", "RArm"]
+    },
+    "Speech_config":{
+        "use_speech":false,
+        "max_repeat_question":"2",
+        "dialogflow_language":"en-US",
+        "dialogflow_key_file":"bot-cxfn-ccfb7d3108c8.json",
+        "dialogflow_agent_id":"bot-cxfn"
+    },
+    "Vision_config":{
+        "use_face_recognition": false
+    },
+    "Scripted_sentences":{
+        "greetings_1":[],
+        "miss_speech":[],
+        "greetings_with_name":[],
+        "do_you_want_play":[],
+        "i_win":[],
+        "i_loss":[],
+        "test_sent":["yes or no?"],
+        "explain_yes_no_with_feet": ["I'm sorry, I still couldn't understand you. Let's try something else!"]
+    }
+}

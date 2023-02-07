@@ -1,0 +1,130 @@
+{
+  "id": "26d13540-3446-4276-81f7-e44cd33fb8b5",
+  "name": "answer_fruits",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "answer_fruits"
+  ],
+  "contexts": [
+    "answer_fruits"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "answer_fruits",
+      "affectedContexts": [
+        {
+          "name": "answer_fruits",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "favorite_fruit",
+          "dataType": "@fruits",
+          "isList": false,
+          "required": true,
+          "prompts": [],
+          "value": "$favorite_fruit",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "My favorite are ",
+          "userDefined": false
+        },
+        {
+          "text": "pineapples",
+          "userDefined": true,
+          "alias": "favorite_fruit",
+          "meta": "@fruits"
+        }
+      ],
+      "count": 0,
+      "id": "6d45c877-8d74-43da-bc67-9ab0590650ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "My favorite fruit are ",
+          "userDefined": false
+        },
+        {
+          "text": "bananas",
+          "userDefined": true,
+          "alias": "favorite_fruit",
+          "meta": "@fruits"
+        }
+      ],
+      "count": 0,
+      "id": "fb5b8edd-db98-4b0e-8fc4-b9e9475a2c74",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I like ",
+          "userDefined": false
+        },
+        {
+          "text": "guava",
+          "userDefined": false,
+          "alias": "favorite_fruit",
+          "meta": "@fruits"
+        }
+      ],
+      "count": 0,
+      "id": "1ab38b22-6d30-452a-bec2-a2ed198b6625",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "apple",
+          "userDefined": false,
+          "alias": "favorite_fruit",
+          "meta": "@fruits"
+        }
+      ],
+      "count": 0,
+      "id": "8d2dd424-72c4-448f-83ad-61f9be6dd98d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

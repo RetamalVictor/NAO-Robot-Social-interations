@@ -1,0 +1,156 @@
+{
+  "id": "57298b52-2878-4a0d-b001-3c7e5f5f6bb7",
+  "name": "answer_no",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "answer_yesno"
+  ],
+  "contexts": [
+    "answer_yesno"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "answer_no",
+      "affectedContexts": [
+        {
+          "name": "answer_yesno",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "unlikely",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1f80ee9c-7aae-4682-95a2-3d499a6f4e91",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "under no circumstances",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e6651d2f-4da8-4000-88c0-68ac42abbc8b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "by no means",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "53c8adad-a626-4934-a840-510fe5560061",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "nah",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8866c1d0-38c5-456b-a5a1-0ac5b67be4cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "negative",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e79d8652-4e41-4d44-8057-2711ea4ccc72",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "never",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a50d70af-05c3-4664-9221-3dab1c91e529",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no way",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9f866af5-df44-4471-b003-d830a830f3bf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "nope",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bfb401c8-0cc5-4876-81ad-eb110eb0e868",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e5ae9144-2ada-41f9-ac39-06b971f7d95e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

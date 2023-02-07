@@ -1,0 +1,168 @@
+{
+  "id": "da6d61e8-df60-450f-bb97-4665500cfc38",
+  "name": "answer_dontknow",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "answer_yesno"
+  ],
+  "contexts": [
+    "answer_yesno"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "answer_dontknow",
+      "affectedContexts": [
+        {
+          "name": "answer_yesno",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "You should not ask me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0d206942-1697-4da1-99d0-43ed37f16ea0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I do not have the answer",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f29dd3bf-fdc2-410d-8642-5b2fa5ac0874",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am not sure",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "46257704-98b1-4809-ae28-dd8fbc3b5372",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I do not know",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1857aceb-6f52-479d-b6ec-962845319057",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "No clue",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "17d26211-bdba-4e53-9af9-4a40c0c74484",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Beats me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5e2637db-40f5-43df-97cd-f7c11f6d6af9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "not sure",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ee1a8d3f-eb1d-4449-8c49-707394c02c8d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I have doubts",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c0bd4910-ae5f-43d3-b9e7-7658520be50b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm not sure",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4e678104-a2b1-4999-9abd-e48a5e8b7ea4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I don't know",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "910e6caa-487c-4a09-99bf-0e4f0c84581c",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,59 @@
+{
+    "Base_config":{
+        "server_ip":"127.0.0.1"
+    },
+    "Speech_config":{
+        "use_speech":false,
+        "max_repeat_question":"2",
+        "dialogflow_language":"en-US",
+        "dialogflow_key_file":"bot-cxfn-ccfb7d3108c8.json",
+        "dialogflow_agent_id":"bot-cxfn",
+        "speed":95,
+        "volume":90
+    },
+    "Vision_config":{
+        "use_face_recognition": false
+    },
+    "Gestures_config":{
+        "win":"extrovert_win/behavior_1",
+        "lose":"extrovert_lose/behavior_1",
+        "hello":"extrovert_hello-4ac79e/behavior_1",
+        "gpt": "extravert_thinking_explaining-78f35/behavior_1"
+    },
+    "Scripted_config":{
+            "greeting_1":["Hi, I am Nao. I don't think we met before"],
+            "greeting_1_name":["What is your name?"],
+            "reply_how_are_you":["I'm great! I'm having an amazing day, because I'm here talking to you!"],
+            "scale_1_10":["Could you grade that on a scale from one to ten?"],
+            "explain_game":[
+                "Let me explay",
+                "We say rock, paper, scissors",
+                "Then you choose to do a rock, paper, or scissors with your hand",
+                "Rock wins from scissors, scissors wins from paper, paper wins from rock",
+                "If we both choose the same, it's a tie"
+            ],
+            "lets_start":["Nice! Let's start"],
+            "do_you_want_play":["Do you want to play a game with me?"],
+            "do_you_want_play_again":[
+                "Do you like to play again?",
+                "Do you want to try again?",
+                "I would love to play again! Would you also like that?"
+            ],
+            "i_win":[
+                "I won! All the practice paid off",
+                "This game is mine!, you'll do better next time",
+                "I won! Yes! Best luck next time"
+            ],
+            "i_lose":[
+                "Oh I lose! You're really good.",
+                "I can't belive it. I lost. You did a great job.",
+                "I lose this game, it's hard to win from you."
+            ],
+            "i_missed_it":[
+                "I didn't listen to what you said. Could you repeat it?",
+                "I missed the last part. Could you repeat it?",
+                "I'm not getting what you are saying. Could you say it again?"
+            ]
+        }
+    
+}

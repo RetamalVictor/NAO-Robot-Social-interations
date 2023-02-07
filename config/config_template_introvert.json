@@ -1,0 +1,59 @@
+{
+    "Base_config":{
+        "server_ip":"127.0.0.1"
+    },
+    "Speech_config":{
+        "use_speech":false,
+        "max_repeat_question":"2",
+        "dialogflow_language":"en-US",
+        "dialogflow_key_file":"bot-cxfn-ccfb7d3108c8.json",
+        "dialogflow_agent_id":"bot-cxfn",
+        "speed":90,
+        "volume":85
+    },
+    "Vision_config":{
+        "use_face_recognition": false
+    },
+    "Gestures_config":{
+        "win":"introver_win/behavior_1",
+        "lose":"introvert_lose/behavior_1",
+        "hello":"introvert_hello-4ac79e/behavior_1",
+        "gpt": "introvert_thinking_explaining-78f35/behavior_1"
+    },
+    "Scripted_config":{
+            "greeting_1":["Hi, I am Nao"],
+            "greeting_1_name":["Could you tell me who you are?"],
+            "reply_how_are_you":["I'm fine, thanks"],
+            "scale_1_10":["Could you grade that on a scale from one to ten?"],
+            "explain_game":[
+                "Let me explay",
+                "We say rock, paper, scissors",
+                "Then you choose to do a rock, paper, or scissors with your hand",
+                "Rock wins from scissors, scissors wins from paper, paper wins from rock",
+                "If we both choose the same, it's a tie"
+            ],
+            "lets_start":["Okay, I guess we start now."],
+            "do_you_want_play":["Would you like to play a game? It's okay if you're not feeling like it."],
+            "do_you_want_play_again":[
+                "Would you like to play again?",
+                "Should we play again?",
+                "We could play again. If you want"
+            ],
+            "i_win":[
+                "Oh I guess I won",
+                "I won, you'll do better next time",
+                "I won this time, better luck next time"
+            ],
+            "i_lose":[
+                "Oh I lose, you won",
+                "I lose, you did a great job",
+                "I lose this time. I hope to do better next time."
+            ],
+            "i_missed_it":[
+                "I couldn't hear that. Could you maybe repeat?",
+                "I missed the last part. Sorry. Could you repeat it please?",
+                "I didn't get what you said. Could you maybe say it again?"
+            ]
+        }
+    
+}
